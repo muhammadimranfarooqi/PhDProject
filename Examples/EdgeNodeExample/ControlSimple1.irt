@@ -1,0 +1,21 @@
+ifconfig:
+name: ppp0
+  inet_addr: 10.0.100.101	Mask: 255.255.255.0	MTU: 1500	Metric: 1	broadcast MULTICAST
+name: ppp1
+  inet_addr: 10.0.100.102	Mask: 255.255.255.0	MTU: 1500	Metric: 1	broadcast MULTICAST
+name: ppp2
+  inet_addr: 10.0.100.103	Mask: 255.255.255.0	MTU: 1500	Metric: 1	broadcast MULTICAST
+  name: ppp3
+  inet_addr: 10.0.100.104	Mask: 255.255.255.0	MTU: 1500	Metric: 1	broadcast MULTICAST
+name: ppp4
+  inet_addr: 10.0.100.105	Mask: 255.255.255.0	MTU: 1500	Metric: 1	broadcast MULTICAST
+ifconfigend.
+route:
+	default: 0.0.0.0 0.0.0.0 G 0 ppp0
+	10.0.111.1 0.0.0.0  255.255.255.255 H 1 ppp0
+	10.0.111.3 0.0.0.0  255.255.255.255 H 1 ppp2
+	10.0.100.1 0.0.0.0  255.255.255.255 H 1 ppp3
+	10.0.100.2 0.0.0.0  255.255.255.255 H 1 ppp4
+				
+routeend.
+

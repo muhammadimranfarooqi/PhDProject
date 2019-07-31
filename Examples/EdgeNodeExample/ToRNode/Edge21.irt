@@ -1,0 +1,349 @@
+ifconfig:
+
+# ethernet card 0 of router - connected to host1
+name: ppp0
+  inet_addr: 10.0.21.100
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp1
+  inet_addr: 10.0.21.101
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp2
+  inet_addr: 10.0.21.102
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp3
+  inet_addr: 10.0.21.103
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp4
+  inet_addr: 10.0.21.104
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp5
+  inet_addr: 10.0.21.105
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp6
+  inet_addr: 10.0.21.106
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp7
+  inet_addr: 10.0.21.107
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp8
+  inet_addr: 10.0.21.108
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp9
+  inet_addr: 10.0.21.109
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp10
+  inet_addr: 10.0.21.110
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp11
+  inet_addr: 10.0.21.111
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp12
+  inet_addr: 10.0.21.112
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp13
+  inet_addr: 10.0.21.113
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp14
+  inet_addr: 10.0.21.114
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp15
+  inet_addr: 10.0.21.115
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp16
+  inet_addr: 10.0.21.116
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp17
+  inet_addr: 10.0.21.117
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp18
+  inet_addr: 10.0.21.118
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp19
+  inet_addr: 10.0.21.119
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp20
+  inet_addr: 10.0.21.120
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp21
+  inet_addr: 10.0.21.121
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp22
+  inet_addr: 10.0.21.122
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp23
+  inet_addr: 10.0.21.123
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp24
+  inet_addr: 10.0.21.124
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp25
+  inet_addr: 10.0.21.125
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp26
+  inet_addr: 10.0.21.126
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp27
+  inet_addr: 10.0.21.127
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp28
+  inet_addr: 10.0.21.128
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp29
+  inet_addr: 10.0.21.129
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp30
+  inet_addr: 10.0.21.130
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp31
+  inet_addr: 10.0.21.131
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp32
+  inet_addr: 10.0.21.132
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp33
+  inet_addr: 10.0.21.133
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp34
+  inet_addr: 10.0.21.134
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp35
+  inet_addr: 10.0.21.135
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp36
+  inet_addr: 10.0.21.136
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp37
+  inet_addr: 10.0.21.137
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp38
+  inet_addr: 10.0.21.138
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+name: ppp39
+  inet_addr: 10.0.21.139
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+
+  
+  name: pppcontrol
+  inet_addr: 10.0.100.21
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  POINTTOPOINT MULTICAST
+  
+    
+  
+# obs card - connected to Edge2
+name: obs
+  inet_addr: 10.1.10.21
+  Mask: 255.255.255.0
+  MTU: 1500
+  Metric: 1
+  MULTICAST POINTTOPOINT
+
+ifconfigend.
+
+route:
+	default: 0.0.0.0 0.0.0.0 G 0 obs
+	10.0.21.1 0.0.0.0 255.255.255.255 H 1 ppp0
+	10.0.21.2 0.0.0.0  255.255.255.255 H 1 ppp1
+	10.0.21.3 0.0.0.0  255.255.255.255 H 1 ppp2
+	10.0.21.4 0.0.0.0  255.255.255.255 H 1 ppp3
+	10.0.21.5 0.0.0.0  255.255.255.255 H 1 ppp4
+	10.0.21.6 0.0.0.0 255.255.255.255 H 1 ppp5
+	10.0.21.7 0.0.0.0  255.255.255.255 H 1 ppp6
+	10.0.21.8 0.0.0.0  255.255.255.255 H 1 ppp7
+	10.0.21.9 0.0.0.0  255.255.255.255 H 1 ppp8
+	10.0.21.10 0.0.0.0  255.255.255.255 H 1 ppp9
+	10.0.21.11 0.0.0.0 255.255.255.255 H 1 ppp10
+	10.0.21.12 0.0.0.0  255.255.255.255 H 1 ppp11
+	10.0.21.13 0.0.0.0  255.255.255.255 H 1 ppp12
+	10.0.21.14 0.0.0.0  255.255.255.255 H 1 ppp13
+	10.0.21.15 0.0.0.0  255.255.255.255 H 1 ppp14
+	10.0.21.16 0.0.0.0 255.255.255.255 H 1 ppp15
+	10.0.21.17 0.0.0.0  255.255.255.255 H 1 ppp16
+	10.0.21.18 0.0.0.0  255.255.255.255 H 1 ppp17
+	10.0.21.19 0.0.0.0  255.255.255.255 H 1 ppp18
+	10.0.21.20 0.0.0.0  255.255.255.255 H 1 ppp19
+	10.0.21.21 0.0.0.0 255.255.255.255 H 1 ppp20
+	10.0.21.22 0.0.0.0  255.255.255.255 H 1 ppp21
+	10.0.21.23 0.0.0.0  255.255.255.255 H 1 ppp22
+	10.0.21.24 0.0.0.0  255.255.255.255 H 1 ppp23
+	10.0.21.25 0.0.0.0  255.255.255.255 H 1 ppp24
+	10.0.21.26 0.0.0.0 255.255.255.255 H 1 ppp25
+	10.0.21.27 0.0.0.0  255.255.255.255 H 1 ppp26
+	10.0.21.28 0.0.0.0  255.255.255.255 H 1 ppp27
+	10.0.21.29 0.0.0.0  255.255.255.255 H 1 ppp28
+	10.0.21.30 0.0.0.0  255.255.255.255 H 1 ppp29
+	10.0.21.31 0.0.0.0 255.255.255.255 H 1 ppp30
+	10.0.21.32 0.0.0.0  255.255.255.255 H 1 ppp31
+	10.0.21.33 0.0.0.0  255.255.255.255 H 1 ppp32
+	10.0.21.34 0.0.0.0  255.255.255.255 H 1 ppp33
+	10.0.21.35 0.0.0.0  255.255.255.255 H 1 ppp34
+	10.0.21.36 0.0.0.0 255.255.255.255 H 1 ppp35
+	10.0.21.37 0.0.0.0  255.255.255.255 H 1 ppp36
+	10.0.21.38 0.0.0.0  255.255.255.255 H 1 ppp37
+	10.0.21.39 0.0.0.0  255.255.255.255 H 1 ppp38
+	10.0.21.40 0.0.0.0  255.255.255.255 H 1 ppp39
+	
+	
+routeend.
+

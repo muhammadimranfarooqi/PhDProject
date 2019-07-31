@@ -1,0 +1,9 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "TestHosts" "TestHosts" "2" "607x337+1028+24:normal"
+inspector "TestHosts.host[0].ppp[0]" "PPPInterface" "2" "607x337+1280+390:normal"
+inspector "TestHosts.host[0]" "StandardHost" "2" "607x337+616+322:normal"
+inspector "TestProjectOBS" "TestProjectOBS" "2" "607x337+65+24:normal"
+inspector "TestEdge" "TestEdge" "2" "607x337+108+322:normal"
+inspector "TestHosts.host3.ppp[0]" "PPPInterface" "2" "607x337+1303+-4:normal"
+inspector "TestHosts.host1.ppp[0]" "PPPInterface" "2" "607x337+65+639:normal"
+

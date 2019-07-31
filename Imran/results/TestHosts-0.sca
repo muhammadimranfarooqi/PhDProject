@@ -1,0 +1,497 @@
+version 2
+run TestHosts-0-20140515-16:26:52-13342
+attr configname TestHosts
+attr datetime 20140515-16:26:52
+attr experiment TestHosts
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network TestHosts
+attr processid 13342
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar TestHosts.host[0].pppg$o[0].channel 	packetsDiscarded:count 	0
+attr interpolationmode  none
+attr source  constant1(messageDiscarded)
+scalar TestHosts.host[0].pppg$o[0].channel 	packets:count 	90911
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar TestHosts.host[0].pppg$o[0].channel 	packetBytes:sum 	113638750
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar TestHosts.host[0].pppg$o[0].channel 	throughput:last 	9091100082.6381
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+scalar TestHosts.host[0].pppg$o[0].channel 	utilization:last 	0.90910091725526
+attr source  timeavg(channelBusy)
+scalar TestHosts.hostr.pppg$o[0].channel 	packetsDiscarded:count 	0
+attr interpolationmode  none
+attr source  constant1(messageDiscarded)
+scalar TestHosts.hostr.pppg$o[0].channel 	packets:count 	0
+attr interpolationmode  none
+attr source  constant1(messageSent)
+scalar TestHosts.hostr.pppg$o[0].channel 	packetBytes:sum 	0
+attr interpolationmode  none
+attr source  packetBytes(messageSent)
+attr unit  B
+scalar TestHosts.hostr.pppg$o[0].channel 	throughput:last 	-nan
+attr source  sumPerDuration(packetBits(messageSent))
+attr unit  bps
+scalar TestHosts.hostr.pppg$o[0].channel 	utilization:last 	-nan
+attr source  timeavg(channelBusy)
+scalar TestHosts.host[0].networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar TestHosts.host[0].networkLayer.arp 	initiatedResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar TestHosts.host[0].networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar TestHosts.host[0].networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar TestHosts.host[0].ppp[0].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TestHosts.host[0].ppp[0].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TestHosts.host[0].ppp[0].queue 	queueingTime:histogram
+field count 90911
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	90911
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TestHosts.host[0].ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TestHosts.host[0].ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TestHosts.host[0].ppp[0].queue 	rcvdPk:count 	90911
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TestHosts.host[0].ppp[0].queue 	rcvdPk:sum(packetBytes) 	113002373
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TestHosts.host[0].ppp[0].ppp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TestHosts.host[0].ppp[0].ppp 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TestHosts.host[0].ppp[0].ppp 	rcvdPkFromHL:count 	90911
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar TestHosts.host[0].ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	113002373
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar TestHosts.host[0].ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TestHosts.host[0].ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TestHosts.host[0].ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TestHosts.host[0].ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TestHosts.host[0].ppp[0].ppp 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TestHosts.host[0].ppp[0].ppp 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TestHosts.host[0].ppp[0].ppp 	txPk:count 	90911
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar TestHosts.host[0].ppp[0].ppp 	txPk:sum(packetBytes) 	113638750
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TestHosts.host[0].ppp[0].ppp 	txState:timeavg 	0.90910009916432
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar TestHosts.host[0].udpApp[0] 	"Total sent" 	90911
+scalar TestHosts.host[0].udpApp[0] 	"Total received" 	0
+scalar TestHosts.host[0].udpApp[0] 	"Total deleted" 	0
+scalar TestHosts.host[0].udpApp[0] 	outOfOrderPk:count 	0
+attr interpolationmode  none
+attr source  outOfOrderPk
+attr title  "packets received out of order, count"
+scalar TestHosts.host[0].udpApp[0] 	outOfOrderPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  outOfOrderPk
+attr title  "packets received out of order, sum(packetBytes)"
+scalar TestHosts.host[0].udpApp[0] 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPk
+attr title  "packets dropped, count"
+scalar TestHosts.host[0].udpApp[0] 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPk
+attr title  "packets dropped, sum(packetBytes)"
+scalar TestHosts.host[0].udpApp[0] 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar TestHosts.host[0].udpApp[0] 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic TestHosts.host[0].udpApp[0] 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TestHosts.host[0].udpApp[0] 	sentPk:count 	90911
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar TestHosts.host[0].udpApp[0] 	sentPk:sum(packetBytes) 	110456865
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar TestHosts.host[0].udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar TestHosts.host[0].udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar TestHosts.host[0].udp 	passedUpPk:count 	0
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar TestHosts.host[0].udp 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar TestHosts.host[0].udp 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar TestHosts.host[0].udp 	sentPk:count 	90911
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar TestHosts.host[0].udp 	sentPk:sum(packetBytes) 	111184153
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar TestHosts.hostr.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar TestHosts.hostr.networkLayer.arp 	initiatedResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar TestHosts.hostr.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar TestHosts.hostr.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar TestHosts.hostr.ppp[0].queue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TestHosts.hostr.ppp[0].queue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TestHosts.hostr.ppp[0].queue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TestHosts.hostr.ppp[0].queue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TestHosts.hostr.ppp[0].queue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TestHosts.hostr.ppp[0].queue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TestHosts.hostr.ppp[0].queue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TestHosts.hostr.ppp[0].ppp 	passedUpPk:count 	90910
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TestHosts.hostr.ppp[0].ppp 	passedUpPk:sum(packetBytes) 	113001130
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TestHosts.hostr.ppp[0].ppp 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar TestHosts.hostr.ppp[0].ppp 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar TestHosts.hostr.ppp[0].ppp 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TestHosts.hostr.ppp[0].ppp 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TestHosts.hostr.ppp[0].ppp 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TestHosts.hostr.ppp[0].ppp 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TestHosts.hostr.ppp[0].ppp 	rxPkOk:count 	90910
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TestHosts.hostr.ppp[0].ppp 	rxPkOk:sum(packetBytes) 	113637500
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TestHosts.hostr.ppp[0].ppp 	txPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, count"
+scalar TestHosts.hostr.ppp[0].ppp 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TestHosts.hostr.ppp[0].ppp 	txState:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "tx state, timeavg"
+scalar TestHosts.hostr.udpApp[0] 	"Total sent" 	0
+scalar TestHosts.hostr.udpApp[0] 	"Total received" 	90909
+scalar TestHosts.hostr.udpApp[0] 	"Total deleted" 	0
+scalar TestHosts.hostr.udpApp[0] 	outOfOrderPk:count 	0
+attr interpolationmode  none
+attr source  outOfOrderPk
+attr title  "packets received out of order, count"
+scalar TestHosts.hostr.udpApp[0] 	outOfOrderPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  outOfOrderPk
+attr title  "packets received out of order, sum(packetBytes)"
+scalar TestHosts.hostr.udpApp[0] 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPk
+attr title  "packets dropped, count"
+scalar TestHosts.hostr.udpApp[0] 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPk
+attr title  "packets dropped, sum(packetBytes)"
+scalar TestHosts.hostr.udpApp[0] 	rcvdPk:count 	90909
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar TestHosts.hostr.udpApp[0] 	rcvdPk:sum(packetBytes) 	110454435
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic TestHosts.hostr.udpApp[0] 	endToEndDelay:histogram
+field count 90909
+field mean 1.1000000000006e-06
+field stddev 0
+field sum 0.099999900000055
+field sqrsum 1.0999988999984e-07
+field min 1.1e-06
+field max 1.1e-06
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.4999989	0
+bin	-0.46666556666667	0
+bin	-0.43333223333333	0
+bin	-0.3999989	0
+bin	-0.36666556666667	0
+bin	-0.33333223333333	0
+bin	-0.2999989	0
+bin	-0.26666556666667	0
+bin	-0.23333223333333	0
+bin	-0.1999989	0
+bin	-0.16666556666667	0
+bin	-0.13333223333333	0
+bin	-0.0999989	0
+bin	-0.066665566666667	0
+bin	-0.033332233333333	0
+bin	1.0999999999761e-06	90909
+bin	0.033334433333333	0
+bin	0.066667766666667	0
+bin	0.1000011	0
+bin	0.13333443333333	0
+bin	0.16666776666667	0
+bin	0.2000011	0
+bin	0.23333443333333	0
+bin	0.26666776666667	0
+bin	0.3000011	0
+bin	0.33333443333333	0
+bin	0.36666776666667	0
+bin	0.4000011	0
+bin	0.43333443333333	0
+bin	0.46666776666667	0
+bin	0.5000011	0
+scalar TestHosts.hostr.udpApp[0] 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar TestHosts.hostr.udpApp[0] 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar TestHosts.hostr.udp 	droppedPkBadChecksum:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (checksum error), count"
+scalar TestHosts.hostr.udp 	droppedPkWrongPort:count 	0
+attr interpolationmode  none
+attr title  "packets dropped (wrong port), count"
+scalar TestHosts.hostr.udp 	passedUpPk:count 	90909
+attr interpolationmode  none
+attr title  "packets passed up, count"
+scalar TestHosts.hostr.udp 	rcvdPk:count 	90909
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar TestHosts.hostr.udp 	rcvdPk:sum(packetBytes) 	111181707
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+scalar TestHosts.hostr.udp 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar TestHosts.hostr.udp 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"

@@ -1,0 +1,6 @@
+#Core 1 routing table
+#====================
+#Bursts from Edge 1 and 2, pass through Core 2
+0 * * 1 * *
+0 * * 0 * *
+1 * * 0 * *

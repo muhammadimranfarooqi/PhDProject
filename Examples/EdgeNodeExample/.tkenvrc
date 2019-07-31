@@ -1,0 +1,7 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "simulation.scheduled-events.ICMP-error-#1-type13-code0" "IPv4Datagram" "1" "518x314+65+737:normal"
+inspector "simulation.scheduled-events.BCP Source" "PPPFrame" "1" "460x314+1458+737:normal"
+inspector "simulation.scheduled-events.ICMP-error-#1-type11-code0.BCP" "OBS_BurstControlPacket" "1" "559x629+318+164:normal"
+inspector "EdgeNodeExample.edge1.pppf[0].queue.l2queue.UDPBasicAppData-240" "IPv4Datagram" "1" "681x728+930+197:normal"
+inspector "EdgeNodeExample.controlswitch.networkLayer.ip.Test Packet" "IPv4Datagram" "1" "475x415+1294+522:normal"
+
